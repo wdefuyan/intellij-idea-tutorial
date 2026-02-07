@@ -109,3 +109,8 @@
 
 - [↑↑↑   返回顶部（RETURN THE TOP）  ↑↑↑](#索引)
 
+
+## 产品需求示例
+
+- [专业女明星资源整合平台（PRD）](./articles/product-requirements/female-star-resource-platform-prd.md)
+
