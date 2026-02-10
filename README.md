@@ -109,3 +109,14 @@
 
 - [↑↑↑   返回顶部（RETURN THE TOP）  ↑↑↑](#索引)
 
+
+## 产品需求示例
+
+- [专业女明星资源整合平台（PRD）](./articles/product-requirements/female-star-resource-platform-prd.md)
+
+
+## 女明星资源整合平台（可运行示例）
+
+- 入口页面：[`web/female-star-platform/index.html`](./web/female-star-platform/index.html)
+- 本地运行：在仓库根目录执行 `python -m http.server 8000` 后访问 `http://localhost:8000/web/female-star-platform/`
+

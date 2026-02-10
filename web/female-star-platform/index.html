@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>专业女明星资源整合平台</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>专业女明星资源整合平台</h1>
+    <p>客观信息展示 · 实时更新（模拟百度数据同步）</p>
+  </header>
+
+  <nav class="top-nav" id="topNav"></nav>
+
+  <main class="layout">
+    <aside class="panel">
+      <h2>筛选与搜索</h2>
+      <label>地区
+        <select id="regionFilter"></select>
+      </label>
+      <label>艺人类型
+        <select id="typeFilter"></select>
+      </label>
+      <label>作品类型
+        <select id="resourceFilter"></select>
+      </label>
+      <label>关键词
+        <input id="keywordInput" placeholder="明星名 / 作品名 / 歌曲名" />
+      </label>
+      <button id="syncBtn">模拟百度数据同步</button>
+    </aside>
+
+    <section class="panel main-panel">
+      <div class="section-header">
+        <h2 id="sectionTitle">明星库</h2>
+        <small id="lastSync">上次同步：未同步</small>
+      </div>
+
+      <div id="stats" class="stats"></div>
+      <div id="listContainer" class="cards"></div>
+    </section>
+
+    <aside class="panel">
+      <h2>用户功能</h2>
+      <div>
+        <h3>收藏</h3>
+        <ul id="favorites"></ul>
+      </div>
+      <div>
+        <h3>浏览历史</h3>
+        <ul id="history"></ul>
+      </div>
+      <div>
+        <h3>信息反馈</h3>
+        <textarea id="feedbackText" rows="4" placeholder="提交错误信息或补充建议"></textarea>
+        <button id="feedbackBtn">提交反馈</button>
+        <ul id="feedbackList"></ul>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>版权声明：本站仅展示公开信息与官方链接，不存储影视/舞台/音乐资源文件。</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
